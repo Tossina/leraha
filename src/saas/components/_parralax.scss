@@ -1,0 +1,224 @@
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.jarallax-keep-img {
+
+    position: relative;
+
+    z-index: 0;
+
+}
+
+.jarallax-keep-img > .jarallax-img {
+
+    position: relative;
+
+    display: block;
+
+    max-width: 100%;
+
+    height: auto;
+
+    z-index: -100;
+
+}
+.btt-jarallax-content {
+    display: table;
+    width: 100%;
+    height: auto;
+}
+
+.btt-j-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/************************************************/
+/************************************************/
+/*****************caption hover effect*********************/
+/************************************************/
+/************************************************/
+.btt-cap {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
+
+.btt-cap img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Show on hover (animate opacity) */
+.cap-fade::before,
+.cap-fade::after {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  color: #f8f9fa;
+  padding: 20px;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.cap-fade::before {
+  content: attr(data-title);
+  top: 0;
+  height: 30%;
+  text-align: center;
+  background: #ff4500;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.cap-fade::after {
+  content: '"' attr(data-description) '"';
+  top: 30%;
+  height: 70%;
+  background: coral;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.cap-fade:hover::before,
+.cap-fade:hover::after {
+  opacity: 1;
+}
+
+/* Slide in on hover (animate transforms) */
+.cap-window {
+  overflow: hidden;
+  background: #000;
+}
+
+.cap-window img {
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cap-window:hover img {
+  opacity: 0.5;
+}
+
+.cap-window::after,
+.cap-window::before {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  color: #fff;
+  z-index: 1;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out; 
+  -moz-transition: -moz-transform 0.3s ease-in-out; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.cap-window::after {
+  content: attr(data-title);
+  top: 0;
+  background: #ff4500;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 40px;
+  text-align: center;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.cap-window::before {
+  content: '...' attr(data-description) '...';
+  top: 50%;
+  background: coral;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.cap-window:hover::after,
+.cap-window:hover::before {
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+/* Side push (animate transforms) */
+.cap-slide {
+  overflow: hidden;
+  background: rgba(0,0,0,0.2);
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+.cap-slide:hover {
+  background: rgba(0,0,0,0);
+}
+
+.cap-slide img {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cap-slide:hover img {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.cap-slide::before,
+.cap-slide::after {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: coral;
+  -webkit-transform: translateX(-30%);
+  -moz-transform: translateX(-30%);
+  transform: translateX(-30%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cap-slide::before {
+  content: attr(data-title);
+  height: 30%;
+  color: #f8f9fa;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.cap-slide::after {
+  content: '\201C' attr(data-description) '\201D';
+  top: 30%;
+  height: 70%;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 30px;
+}
+
+.cap-slide:hover::before,
+.cap-slide:hover::after  {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  transform: translateX(0);
+}

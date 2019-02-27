@@ -1,0 +1,1163 @@
+.btt figure,
+.btt figure img,
+figure.effect-layla img {
+    overflow: hidden
+}
+
+.btt-oe .view {
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    float: left;
+    border: 4px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    cursor: default;
+    line-height: 0
+}
+
+.btt-oe .view .content,
+.btt-oe .view .mask {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    line-height: normal
+}
+
+.btt-oe .view img {
+    display: block;
+    position: relative
+}
+
+.btt-oe .view h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 1.2em;
+    padding: 10px;
+    background: rgba(0, 0, 0, .8);
+    margin: 20px 0 0
+}
+
+.btt-oe .view p {
+    font-style: italic;
+    font-size: 1em;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+
+.btt-oe .view a.info {
+    display: inline-block;
+    padding: 7px 14px;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000
+}
+
+.btt-oe .view a.info:hover {
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000
+}
+
+.btt-oe .oheh-pattern img {
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    transition: all .8s linear
+}
+
+.btt-oe .oheh-pattern .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.btt-oe .oheh-pattern h2,
+.btt-oe .oheh-pattern p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0
+}
+
+.btt-oe .oheh-pattern h2 {
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    filter: alpha(opacity=0);
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out
+}
+
+.btt-oe .oheh-pattern p {
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    filter: alpha(opacity=0);
+    -webkit-transition: all .8s linear;
+    -moz-transition: all .8s linear;
+    -o-transition: all .8s linear;
+    -ms-transition: all .8s linear;
+    transition: all .8s linear
+}
+
+.btt-oe .oheh-pattern:hover img {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1)
+}
+
+.btt-oe .oheh-pattern a.info {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out
+}
+
+.btt-oe .oheh-pattern:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.btt-oe .oheh-pattern:hover a.info,
+.btt-oe .oheh-pattern:hover h2,
+.btt-oe .oheh-pattern:hover p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.btt-oe .oheh-pattern:hover p {
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.btt-oe .oheh-pattern:hover a.info {
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.btt-oe .oheh-flyer img {
+    -webkit-transition: all .8s ease-in;
+    -moz-transition: all .8s ease-in;
+    -o-transition: all .8s ease-in;
+    -ms-transition: all .8s ease-in;
+    transition: all .8s ease-in
+}
+
+.btt-oe .oheh-flyer .mask,
+.btt-oe .oheh-flyer h2 {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-flyer .mask {
+    width: auto;
+    padding: 60px;
+    height: 100%;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: translate(265px, 145px) rotate(45deg);
+    -moz-transform: translate(265px, 145px) rotate(45deg);
+    -o-transform: translate(265px, 145px) rotate(45deg);
+    -ms-transform: translate(265px, 145px) rotate(45deg);
+    transform: translate(265px, 145px) rotate(45deg);
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-flyer .content:hover {
+    background-color: rgba(26, 26, 26, .7)
+}
+
+.btt-oe .oheh-flyer h2 {
+    border-bottom: 2px solid rgba(242, 242, 242, .5);
+    background: 0 0;
+    margin: 20px 40px 0;
+    -webkit-transform: translate(200px, -200px);
+    -moz-transform: translate(200px, -200px);
+    -o-transform: translate(200px, -200px);
+    -ms-transform: translate(200px, -200px);
+    transform: translate(200px, -200px);
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-rotate h2,
+.btt-oe .oheh-z-out h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    margin: 20px 40px 0
+}
+
+.btt-oe .oheh-flyer p {
+    -webkit-transform: translate(-200px, 200px);
+    -moz-transform: translate(-200px, 200px);
+    -o-transform: translate(-200px, 200px);
+    -ms-transform: translate(-200px, 200px);
+    transform: translate(-200px, 200px);
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-flyer a.info {
+    -webkit-transform: translate(0, 100px);
+    -moz-transform: translate(0, 100px);
+    -o-transform: translate(0, 100px);
+    -ms-transform: translate(0, 100px);
+    transform: translate(0, 100px);
+    -webkit-transition: all .6s .5s ease-in-out;
+    -moz-transition: all .6s .5s ease-in-out;
+    -o-transition: all .6s .5s ease-in-out;
+    -ms-transition: all .6s .5s ease-in-out;
+    transition: all .6s .5s ease-in-out
+}
+
+.btt-oe .oheh-flyer:hover h2,
+.btt-oe .oheh-flyer:hover p {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0)
+}
+
+.btt-oe .oheh-flyer:hover h2 {
+    transform: translate(0, 0);
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    -ms-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.btt-oe .oheh-flyer:hover p {
+    transform: translate(0, 0);
+    -webkit-transition-delay: .1s;
+    -moz-transition-delay: .1s;
+    -o-transition-delay: .1s;
+    -ms-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.btt-oe .oheh-flyer:hover a.info {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition-delay: .3s;
+    -moz-transition-delay: .3s;
+    -o-transition-delay: .3s;
+    -ms-transition-delay: .3s;
+    transition-delay: .3s
+}
+
+.btt-oe .oheh-sweet img {
+    -webkit-transition: all .8s ease-in;
+    -moz-transition: all .8s ease-in;
+    -o-transition: all .8s ease-in;
+    -ms-transition: all .8s ease-in;
+    transition: all .8s ease-in
+}
+
+.btt-oe .oheh-sweet .mask {
+    background-color: rgba(0, 0, 0, .6);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: translate(460px, -100px) rotate(180deg);
+    -moz-transform: translate(460px, -100px) rotate(180deg);
+    -o-transform: translate(460px, -100px) rotate(180deg);
+    -ms-transform: translate(460px, -100px) rotate(180deg);
+    transform: translate(460px, -100px) rotate(180deg);
+    -webkit-transition: all .3s .4s ease-in-out;
+    -moz-transition: all .3s .4s ease-in-out;
+    -o-transition: all .3s .4s ease-in-out;
+    -ms-transition: all .3s .4s ease-in-out;
+    transition: all .3s .4s ease-in-out
+}
+
+.btt-oe .oheh-sweet h2,
+.btt-oe .oheh-sweet p {
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+    -ms-transition: all .8s ease-in-out
+}
+
+.btt-oe .oheh-sweet h2 {
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    transition: all .8s ease-in-out
+}
+
+.btt-oe .oheh-sweet p {
+    -webkit-transform: translateX(300px) rotate(90deg);
+    -moz-transform: translateX(300px) rotate(90deg);
+    -o-transform: translateX(300px) rotate(90deg);
+    -ms-transform: translateX(300px) rotate(90deg);
+    transform: translateX(300px) rotate(90deg);
+    transition: all .8s ease-in-out
+}
+
+.btt-oe .oheh-sweet a.info {
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-sweet:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+.btt-oe .oheh-sweet:hover h2 {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.btt-oe .oheh-sweet:hover p {
+    -webkit-transform: translateX(0) rotate(0);
+    -moz-transform: translateX(0) rotate(0);
+    -o-transform: translateX(0) rotate(0);
+    -ms-transform: translateX(0) rotate(0);
+    transform: translateX(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.btt-oe .oheh-sweet:hover a.info {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: .7s;
+    -moz-transition-delay: .7s;
+    -o-transition-delay: .7s;
+    -ms-transition-delay: .7s;
+    transition-delay: .7s
+}
+
+.btt-oe .oheh-rotate img {
+    -webkit-transition: all .8s ease-in-out .2s;
+    -moz-transition: all .8s ease-in-out .2s;
+    -o-transition: all .8s ease-in-out .2s;
+    -ms-transition: all .8s ease-in-out .2s;
+    transition: all .8s ease-in-out .2s;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.btt-oe .oheh-rotate .mask,
+.btt-oe .oheh-rotate h2 {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0
+}
+
+.btt-oe .oheh-rotate .mask {
+    background-color: rgba(0, 0, 0, .8);
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0) rotate(-180deg);
+    -moz-transform: scale(0) rotate(-180deg);
+    -o-transform: scale(0) rotate(-180deg);
+    -ms-transform: scale(0) rotate(-180deg);
+    transform: scale(0) rotate(-180deg);
+    -webkit-transition: all .7s ease-in;
+    -moz-transition: all .7s ease-in;
+    -o-transition: all .7s ease-in;
+    -ms-transition: all .7s ease-in;
+    transition: all .7s ease-in;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0
+}
+
+.btt-oe .oheh-rotate h2 {
+    filter: alpha(opacity=0);
+    background: 0 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-rotate a.info,
+.btt-oe .oheh-rotate p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out
+}
+
+.btt-oe .oheh-rotate:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(0);
+    -moz-transform: scale(1) rotate(0);
+    -o-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    -ms-transition-delay: .2s;
+    transition-delay: .2s
+}
+
+.btt-oe .oheh-rotate:hover img,
+.btt-oe .oheh-z-out:hover .mask {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -ms-transition-delay: 0s
+}
+
+.btt-oe .oheh-rotate:hover img {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    transition-delay: 0s
+}
+
+.btt-oe .oheh-rotate:hover a.info,
+.btt-oe .oheh-rotate:hover h2,
+.btt-oe .oheh-rotate:hover p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.btt-oe .oheh-z-out img {
+    -webkit-transition: all .4s ease-in-out .5s;
+    -moz-transition: all .4s ease-in-out .5s;
+    -o-transition: all .4s ease-in-out .5s;
+    -ms-transition: all .4s ease-in-out .5s;
+    transition: all .4s ease-in-out .5s
+}
+
+.btt-oe .oheh-z-out .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all .3s ease-in .4s;
+    -moz-transition: all .3s ease-in .4s;
+    -o-transition: all .3s ease-in .4s;
+    -ms-transition: all .3s ease-in .4s;
+    transition: all .3s ease-in .4s
+}
+
+.btt-oe .oheh-z-out h2,
+.btt-oe .oheh-z-out p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.btt-oe .oheh-z-out h2 {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: 0 0;
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -webkit-transition: all .3s ease-in-out .1s;
+    -moz-transition: all .3s ease-in-out .1s;
+    -o-transition: all .3s ease-in-out .1s;
+    -ms-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s
+}
+
+.btt-oe .oheh-z-out p {
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -webkit-transition: all .6s ease-in-out .2s;
+    -moz-transition: all .6s ease-in-out .2s;
+    -o-transition: all .6s ease-in-out .2s;
+    -ms-transition: all .6s ease-in-out .2s;
+    transition: all .6s ease-in-out .2s
+}
+
+.btt-oe .oheh-rotate-over .mask,
+.btt-oe .oheh-z-out a.info {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0
+}
+
+.btt-oe .oheh-z-out a.info {
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -o-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: all .3s ease-in-out .1s;
+    -moz-transition: all .3s ease-in-out .1s;
+    -o-transition: all .3s ease-in-out .1s;
+    -ms-transition: all .3s ease-in-out .1s;
+    transition: all .3s ease-in-out .1s
+}
+
+.btt-oe .oheh-z-out:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition-delay: 0s
+}
+
+.btt-oe .oheh-z-out:hover img {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.btt-oe .oheh-z-out:hover h2 {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.btt-oe .oheh-z-out:hover p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition-delay: .6s;
+    -moz-transition-delay: .6s;
+    -o-transition-delay: .6s;
+    -ms-transition-delay: .6s;
+    transition-delay: .6s
+}
+
+.btt-oe .oheh-z-out:hover a.info {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: .8s;
+    -moz-transition-delay: .8s;
+    -o-transition-delay: .8s;
+    -ms-transition-delay: .8s;
+    transition-delay: .8s
+}
+
+.btt-oe .oheh-rotate-over img {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.btt-oe .oheh-rotate-over .mask {
+    -webkit-transform: rotate(0) scale(1);
+    -moz-transform: rotate(0) scale(1);
+    -o-transform: rotate(0) scale(1);
+    -ms-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    filter: alpha(opacity=0);
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    transition: all .5s ease-out
+}
+
+.btt-oe .oheh-rotate-over a.info,
+.btt-oe .oheh-rotate-over h2,
+.btt-oe .oheh-rotate-over p {
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out
+}
+
+.btt-oe .oheh-rotate-over:hover img {
+    -webkit-transform: rotate(720deg) scale(0);
+    -moz-transform: rotate(720deg) scale(0);
+    -o-transform: rotate(720deg) scale(0);
+    -ms-transform: rotate(720deg) scale(0);
+    transform: rotate(720deg) scale(0);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.btt-oe .oheh-rotate-over:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transform: translateY(0) rotate(0);
+    -moz-transform: translateY(0) rotate(0);
+    -o-transform: translateY(0) rotate(0);
+    -ms-transform: translateY(0) rotate(0);
+    transform: translateY(0) rotate(0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.btt-oe .oheh-rotate-over:hover h2,
+.btt-oe .oheh-rotate-over:hover p {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0)
+}
+
+.btt-oe .oheh-rotate-over:hover h2 {
+    transform: translateY(0);
+    -webkit-transition-delay: .7s;
+    -moz-transition-delay: .7s;
+    -o-transition-delay: .7s;
+    -ms-transition-delay: .7s;
+    transition-delay: .7s
+}
+
+.btt-oe .oheh-rotate-over:hover p {
+    transform: translateY(0);
+    -webkit-transition-delay: .6s;
+    -moz-transition-delay: .6s;
+    -o-transition-delay: .6s;
+    -ms-transition-delay: .6s;
+    transition-delay: .6s
+}
+
+.btt-oe .oheh-rotate-over:hover a.info {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: .5s;
+    -moz-transition-delay: .5s;
+    -o-transition-delay: .5s;
+    -ms-transition-delay: .5s;
+    transition-delay: .5s
+}
+
+.btt-oe .oheh-fallen h2,
+.btt-oe .oheh-fallen p {
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    -ms-transform: translateY(-200px)
+}
+
+.btt-oe .oheh-fallen .mask {
+    top: -200px;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all .6s ease-out .5s;
+    -moz-transition: all .6s ease-out .5s;
+    -o-transition: all .6s ease-out .5s;
+    -ms-transition: all .6s ease-out .5s;
+    transition: all .6s ease-out .5s
+}
+
+.btt-oe .oheh-fallen h2 {
+    transform: translateY(-200px);
+    -webkit-transition: all .7s ease-in-out .1s;
+    -moz-transition: all .7s ease-in-out .1s;
+    -o-transition: all .7s ease-in-out .1s;
+    -ms-transition: all .7s ease-in-out .1s;
+    transition: all .7s ease-in-out .1s
+}
+
+.btt-oe .oheh-fallen p {
+    color: #333;
+    transform: translateY(-200px);
+    -webkit-transition: all .6s ease-in-out .6s;
+    -moz-transition: all .6s ease-in-out .6s;
+    -o-transition: all .6s ease-in-out .6s;
+    -ms-transition: all .6s ease-in-out .6s;
+    transition: all .6s ease-in-out .6s
+}
+
+.btt-oe .oheh-fallen a.info {
+    -webkit-transform: translateY(-200px);
+    -moz-transform: translateY(-200px);
+    -o-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all .2s ease-in-out .3s;
+    -moz-transition: all .2s ease-in-out .3s;
+    -o-transition: all .2s ease-in-out .3s;
+    -ms-transition: all .2s ease-in-out .3s;
+    transition: all .2s ease-in-out .3s
+}
+
+.btt-oe .oheh-fallen:hover h2,
+.btt-oe .oheh-fallen:hover p {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0)
+}
+
+.btt-oe .oheh-fallen:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    top: 0;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-animation: bounceY .9s linear;
+    -moz-animation: bounceY .9s linear;
+    -ms-animation: bounceY .9s linear;
+    animation: bounceY .9s linear
+}
+
+.btt-oe .oheh-fallen:hover h2 {
+    transform: translateY(0);
+    -webkit-transition-delay: .4s;
+    -moz-transition-delay: .4s;
+    -o-transition-delay: .4s;
+    -ms-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.btt-oe .oheh-fallen:hover p {
+    transform: translateY(0);
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    -ms-transition-delay: .2s;
+    transition-delay: .2s
+}
+
+.btt-oe .oheh-fallen:hover a.info {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+@keyframes bounceY {
+    0% {
+        transform: translateY(-205px)
+    }
+    40% {
+        transform: translateY(-100px)
+    }
+    65% {
+        transform: translateY(-52px)
+    }
+    82% {
+        transform: translateY(-25px)
+    }
+    92% {
+        transform: translateY(-12px)
+    }
+    100%,
+    55%,
+    75%,
+    87%,
+    97% {
+        transform: translateY(0)
+    }
+}
+
+@-moz-keyframes bounceY {
+    0% {
+        -moz-transform: translateY(-205px)
+    }
+    40% {
+        -moz-transform: translateY(-100px)
+    }
+    65% {
+        -moz-transform: translateY(-52px)
+    }
+    82% {
+        -moz-transform: translateY(-25px)
+    }
+    92% {
+        -moz-transform: translateY(-12px)
+    }
+    100%,
+    55%,
+    75%,
+    87%,
+    97% {
+        -moz-transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes bounceY {
+    0% {
+        -webkit-transform: translateY(-205px)
+    }
+    40% {
+        -webkit-transform: translateY(-100px)
+    }
+    65% {
+        -webkit-transform: translateY(-52px)
+    }
+    82% {
+        -webkit-transform: translateY(-25px)
+    }
+    92% {
+        -webkit-transform: translateY(-12px)
+    }
+    100%,
+    55%,
+    75%,
+    87%,
+    97% {
+        -webkit-transform: translateY(0)
+    }
+}
+
+.btt-oe .oheh-bunker .mask-1,
+.btt-oe .oheh-bunker .mask-2 {
+    height: 250%;
+    width: 150%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out .6s;
+    -moz-transition: all .3s ease-in-out .6s;
+    -o-transition: all .3s ease-in-out .6s;
+    transition: all .3s ease-in-out .6s
+}
+
+.btt-oe .oheh-bunker .mask-1 {
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(56.5deg) translateX(-180px);
+    -moz-transform: rotate(56.5deg) translateX(-180px);
+    -o-transform: rotate(56.5deg) translateX(-180px);
+    -ms-transform: rotate(56.5deg) translateX(-180px);
+    transform: rotate(56.5deg) translateX(-180px);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0
+}
+
+.btt-oe .oheh-bunker .mask-2 {
+    top: auto;
+    bottom: 0;
+    -webkit-transform: rotate(56.5deg) translateX(180px);
+    -moz-transform: rotate(56.5deg) translateX(180px);
+    -o-transform: rotate(56.5deg) translateX(180px);
+    -ms-transform: rotate(56.5deg) translateX(180px);
+    transform: rotate(56.5deg) translateX(180px);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%
+}
+
+.btt-oe .oheh-bunker .content {
+    background: rgba(0, 0, 0, .9);
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: .5;
+    width: auto;
+    overflow: hidden;
+    -webkit-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -moz-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -o-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -ms-transform: rotate(-33.5deg) translate(-112px, 166px);
+    transform: rotate(-33.5deg) translate(-112px, 166px);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transition: all .4s ease-in-out .3s;
+    -moz-transition: all .4s ease-in-out .3s;
+    -o-transition: all .4s ease-in-out .3s;
+    transition: all .4s ease-in-out .3s
+}
+
+.btt-oe .oheh-bunker h2 {
+    background: 0 0;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, .2)
+}
+
+.btt-oe .oheh-bunker a.info {
+    display: none
+}
+
+.btt-oe .oheh-bunker:hover .content {
+    height: 100%;
+    width: auto;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: .9;
+    -webkit-transform: rotate(0) translate(0, 0);
+    -moz-transform: rotate(0) translate(0, 0);
+    -o-transform: rotate(0) translate(0, 0);
+    -ms-transform: rotate(0) translate(0, 0);
+    transform: rotate(0) translate(0, 0)
+}
+
+.btt-oe .oheh-bunker:hover .mask-1,
+.btt-oe .oheh-bunker:hover .mask-2 {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.btt-oe .oheh-bunker:hover .mask-1 {
+    -webkit-transform: rotate(56.5deg) translateX(1px);
+    -moz-transform: rotate(56.5deg) translateX(1px);
+    -o-transform: rotate(56.5deg) translateX(1px);
+    -ms-transform: rotate(56.5deg) translateX(1px);
+    transform: rotate(56.5deg) translateX(1px)
+}
+
+.btt-oe .oheh-bunker:hover .mask-2 {
+    -webkit-transform: rotate(56.5deg) translateX(-1px);
+    -moz-transform: rotate(56.5deg) translateX(-1px);
+    -o-transform: rotate(56.5deg) translateX(-1px);
+    -ms-transform: rotate(56.5deg) translateX(-1px);
+    transform: rotate(56.5deg) translateX(-1px)
+}
+
+.btt-oe .oheh-z-in img {
+    -webkit-transform: scaleY(1);
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out
+}
+
+.btt-oe .oheh-z-in .mask {
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    transition: all .5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.btt-oe .oheh-z-in h2,
+.btt-oe .oheh-z-in p {
+    color: #333;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    transform: scale(0);
+    transition: all .5s linear
+}
+
+.btt-oe .oheh-z-in h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    background: 0 0;
+    margin: 20px 40px 0;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.btt-oe .oheh-z-in a.info,
+.btt-oe .oheh-z-in p {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0
+}
+
+.btt-oe .oheh-z-in p {
+    filter: alpha(opacity=0)
+}
+
+.btt-oe .oheh-z-in a.info {
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+.btt-oe .oheh-z-in:hover img {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.btt-oe .oheh-z-in:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.btt-oe .oheh-z-in:hover a.info,
+.btt-oe .oheh-z-in:hover h2,
+.btt-oe .oheh-z-in:hover p {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1
+}

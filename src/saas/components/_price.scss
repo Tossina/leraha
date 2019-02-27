@@ -1,0 +1,114 @@
+.btt-pricing .price-ticket:hover {
+  background : -moz-linear-gradient(-1.41% 86.16% 15deg,#4a1e73 0%,#b050cd 11.37%,#b557c9 29.89%,#ff28a7 48.4%,#ff308b 67.81%,#fe4f60 76.49%,#fa704b 85.63%,#bd8c2f 100%);
+  background : -webkit-linear-gradient(15deg, #4a1e73 0%, #b050cd 11.37%, #b557c9 29.89%, #ff28a7 48.4%, #ff308b 67.81%, #fe4f60 76.49%, #fa704b 85.63%, #bd8c2f 100%); 
+  background : -webkit-gradient(linear,-1.41% 86.16% ,101.41% 13.84% ,color-stop(0,#4a1e73 ),color-stop(0.1137,#b050cd ),color-stop(0.2989,#b557c9 ),color-stop(0.484,#ff28a7 ),color-stop(0.6781,#ff308b ),color-stop(0.7649,#fe4f60 ),color-stop(0.8563,#fa704b ),color-stop(1,#bd8c2f )); 
+  background : -o-linear-gradient(15deg, #4a1e73 0%, #b050cd 11.37%, #b557c9 29.89%, #ff28a7 48.4%, #ff308b 67.81%, #fe4f60 76.49%, #fa704b 85.63%, #bd8c2f 100%); 
+  background : -ms-linear-gradient(15deg, #4a1e73 0%, #b050cd 11.37%, #b557c9 29.89%, #ff28a7 48.4%, #ff308b 67.81%, #fe4f60 76.49%, #fa704b 85.63%, #bd8c2f 100%); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A1E73', endColorstr='#BD8C2F' ,GradientType=0)"; 
+  background : linear-gradient(75deg, #4a1e73 0%, #b050cd 11.37%, #b557c9 29.89%, #ff28a7 48.4%, #ff308b 67.81%, #fe4f60 76.49%, #fa704b 85.63%, #bd8c2f 100%); opacity : 0.92; filter: alpha(opacity=92) progid:DXImageTransform.Microsoft.Alpha(opacity=92) progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A1E73',endColorstr='#BD8C2F' , GradientType=1); background-repeat: no-repeat; -webkit-background-size: 800% 400%; 
+  background-size: 800% 400%;
+  background-position: 100% 50%;
+  transition-duration: .7s!important;
+}
+
+.btt-pricing .price-ticket {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #f9f9ff;
+  padding: 40px 20px;
+  color: #2f4f4f;
+}
+
+.btt-pricing .price-ticket .icon-price {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  height: 140px;
+  background-color: rgba(255, 40, 167, 0.1);
+  border-radius: 100px;
+  align-items: center;
+  display: grid;
+  border: 30px solid rgba(204, 0, 102, 0.1);
+  color: #2f4f4f;
+}
+
+.btt-pricing .price-ticket .top-section h4 {
+  margin-top: 20px;
+}
+
+.btt-pricing .price-ticket .list-pack {
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.btt-pricing .price-ticket .list-pack ul li {
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+}
+
+.btt-pricing .price-ticket .list-pack ul li:last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.btt-pricing .price-ticket .bott-section {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.btt-pricing .price-ticket .bott-section .btn-pricing {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #fff;
+  color: #2f4f4f;
+  padding: 10px 50px;
+  font-weight: 600;
+  display: inline-block;
+  display: none;
+}
+
+.btt-pricing .price-ticket:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btt-pricing .price-ticket:hover h1, .btt-pricing .price-ticket:hover h4 {
+  color: #fff;
+}
+
+.btt-pricing .price-ticket:hover .icon-price {
+  border-color: rgba(255, 255, 255, 0.21);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btt-pricing .price-ticket:hover .bott-section h1 {
+  display: none;
+}
+
+.btt-pricing .price-ticket:hover .bott-section .btn-pricing {
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .btt-pricing .price-ticket {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 736px) {
+  .btt-pricing .price-ticket {
+    margin: 10px;
+  }
+}
